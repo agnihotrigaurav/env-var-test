@@ -5,7 +5,7 @@ build:
     - script:
         name: auth jfrog
         code: |
-          if [ $JFROG_REGISTORY_URL ]; then echo "JFROG_REGISTORY_URL"; fi
-          if [ $JFROG_AUTH_URL ]; then echo "JFROG_AUTH_URL"; fi
+          if [ $JFROG_REGISTORY_URL ]; then echo $JFROG_REGISTORY_URL; fi
+          if [ $JFROG_AUTH_URL ]; then echo $JFROG_AUTH_URL; fi
 
 
